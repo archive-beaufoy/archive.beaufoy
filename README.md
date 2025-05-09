@@ -1,4 +1,4 @@
-## archive.beaufoy
+## Beaufoy Archive
 Beaufoy London Diamondway  Buddhist Center photo / video archive project
 
 ## Table of Contents

@@ -6,8 +6,8 @@ Beaufoy London Diamondway  Buddhist Center photo / video archive project
 - [Status](#setup)
 
 ### Todo
-* Download parts and run
-
+* Create archive.beaufoy gmail mail address
+* Link tailscale to archive gmail
 
 ### Dependencies
 * Gmail

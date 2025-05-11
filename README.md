@@ -14,8 +14,10 @@ Beaufoy London Diamondway  Buddhist Center photo / video archive project
 * Link apple id to archive gmail
 * Backup system drive as image
 * Backup system drive as TimeMachine
-* Update to MacOS Ventura
+* Update to MacOS Ventura (?)
 * Create Naxtcloud / Memories on old MacMini
+* Create and check fields interpolation based on flownet5
+* Create, train and check DV / VHS to 2k upscaler including artefacts removal
 
 ### Dependencies
 * Gmail

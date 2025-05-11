@@ -46,3 +46,12 @@ conda install numpy=1.21 mkl=2021.4.0
 conda install pytorch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 -c pytorch
 ```
 
+MPS backend seem to work faster with simple CNN
+
+```bash
+(torch-mps) archive@Archive mps-test % python mps_test.py                              
+Device: cpu | Time per forward pass: 19.2168 seconds
+Device: mps | Time per forward pass: 3.4896 seconds
+```
+
+

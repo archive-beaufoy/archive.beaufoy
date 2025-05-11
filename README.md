@@ -5,6 +5,7 @@ Beaufoy London Diamondway  Buddhist Center photo / video archive project
 - [Dependencies](#dependencies)
 - [Status](#status)
 - [Transcribe](#transcribe)
+- [Pytorch](#pytorch)
 
 
 ### Todo
@@ -32,3 +33,16 @@ Transcribe is based on transcribe-anything v2.4.0 and custom direcrtory walkthro
 eval "$(~/miniconda3/bin/conda shell.bash hook)"
 conda activate transcribe
 ```
+
+### Pytorch
+
+Install latest pytorch officially avaliable for Intel Macs (2.2.2) with mps backend.
+
+```bash
+eval "$(~/miniconda3/bin/conda shell.bash hook)"
+conda create -n torch-mps -c conda-forge python=3.10
+conda activate torch-mps
+conda install numpy=1.21 mkl=2021.4.0
+conda install pytorch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 -c pytorch
+```
+

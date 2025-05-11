@@ -25,9 +25,9 @@ class SimpleConvModel(nn.Module):
 
     def forward(self, x):
         x = self.initial_conv(x)
-        x = F.interpolate(x, size=(1024, 1024), mode='bicubic', align_corners=True, antialias=True)
+        x = F.interpolate(x, size=(1024, 1024), mode='bilinear', align_corners=True, antialias=True)
         x = self.block(x)
-        x = F.interpolate(x, size=(2048, 2048), mode='bicubic', align_corners=True, antialias=True)
+        x = F.interpolate(x, size=(2048, 2048), mode='bilinear', align_corners=True, antialias=True)
         x = self.final_conv(x)
         return x
 

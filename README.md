@@ -14,6 +14,8 @@ Beaufoy London Diamondway  Buddhist Center photo / video archive project
 * Link tailscale on Kitsu VM to archive gmail
 * Backup system drive as image
 * Backup system drive as TimeMachine
+* Copy achive_vol004 local to external drive
+* Send copy of achive_vol004 to Hubert (Gdansk Anniversary?)
 * Update to MacOS Ventura (?)
 * Create Naxtcloud / Memories on old MacMini
 * Create and check fields interpolation based on flownet5

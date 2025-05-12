@@ -6,10 +6,9 @@ Beaufoy London Diamondway  Buddhist Center photo / video archive project
 - [Status](#status)
 - [Transcribe](#transcribe)
 - [Pytorch](#pytorch)
-
+- [Changelog](#changelog)
 
 ### Todo
-* Create archive.beaufoy gmail mail address
 * Link tailscale to archive gmail
 * Link apple id to archive gmail
 * Backup system drive as image
@@ -55,5 +54,9 @@ MPS backend seem to work faster with simple CNN
 Device: cpu | Time per forward pass: 19.2168 seconds
 Device: mps | Time per forward pass: 3.4896 seconds
 ```
+
+### Changelog
+
+* [2025/05/12] archive.beaufoy@gmail.com mail address created.
 
 

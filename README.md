@@ -60,8 +60,9 @@ Device: mps | Time per forward pass: 3.4896 seconds
 
 ### Changelog
 
-* [2025/05/08] Transcribe anvironment created, transcribe process started on local copy of archive_vol004.
-* [2025/05/11] Pytorch with MPS backend installed and tested.
+* [2025/05/14] Github repo ownership transferred to Gitub account linked to archive.beaufoy@gmail.com mail address.
 * [2025/05/12] archive.beaufoy@gmail.com mail address created.
+* [2025/05/11] Pytorch with MPS backend installed and tested.
+* [2025/05/08] Transcribe anvironment created, transcribe process started on local copy of archive_vol004.
 
 
